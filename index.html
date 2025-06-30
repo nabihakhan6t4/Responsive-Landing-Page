@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nabiha Dev - MERN Stack Developer specializing in responsive, high-performing web apps using Tailwind CSS."
+    />
+
+    <title>Responsive Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header-start -->
+    <header class="bg-[#4A00B7] p-4 sticky top-0 z-50 shadow-md">
+      <nav class="container mx-auto flex justify-between items-center">
+        <div class="text-2xl font-bold flex-shrink-0">
+          <a href="#hero" class="text-[#F7F8F9] hover:text-[#F5A623]"
+            >Nabiha Dev</a
+          >
+        </div>
+
+        <nav class="hidden md:flex space-x-6">
+          <a
+            href="#hero"
+            class="text-[#F7F8F9] hover:text-[#F5A623] transition duration-300"
+            >Home</a
+          >
+          <a
+            href="#features"
+            class="text-[#F7F8F9] hover:text-[#F5A623] transition duration-300"
+            >Features</a
+          >
+          <a
+            href="#about"
+            class="text-[#F7F8F9] hover:text-[#F5A623] transition duration-300"
+            >About Us</a
+          >
+          <a
+            href="#contact"
+            class="text-[#F7F8F9] hover:text-[#F5A623] transition duration-300"
+            >Contact</a
+          >
+        </nav>
+
+        <div class="md:hidden">
+          <button
+            id="mobile-menu-button"
+            class="text-2xl text-[#F7F8F9] focus:outline-none"
+          >
+            ☰
+          </button>
+        </div>
+      </nav>
+
+      <nav
+        id="mobile-menu"
+        class="md:hidden bg-[#F7F8F9] mt-4 p-4 space-y-4 hidden"
+      >
+        <a
+          href="#hero"
+          class="block text-[#2D3748] hover:text-[#F5A623] transition duration-300"
+          >Home</a
+        >
+        <a
+          href="#features"
+          class="block text-[#2D3748] hover:text-[#F5A623] transition duration-300"
+          >Features</a
+        >
+        <a
+          href="#about"
+          class="block text-[#2D3748] hover:text-[#F5A623] transition duration-300"
+          >About Us</a
+        >
+        <a
+          href="#contact"
+          class="block text-[#2D3748] hover:text-[#F5A623] transition duration-300"
+          >Contact</a
+        >
+      </nav>
+    </header>
+    <!-- header-end -->
+    <!-- hero section start -->
+
+    <div class="relative isolate px-6 pt-14 lg:px-8" id="hero">
+      <div
+        class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+        aria-hidden="true"
+      >
+        <div
+          class="relative bg-[#F7F8F9] left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 sm:left-[calc(50%-30rem)] sm:w-288.75"
+        ></div>
+      </div>
+      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div class="text-center">
+          <h1
+            class="text-5xl font-semibold tracking-tight text-[#2D3748] sm:text-7xl"
+          >
+            Build Your Dream App with
+            <span class="text-[#F5A623]">Nabiha Dev</span>
+          </h1>
+          <p class="mt-8 text-lg font-medium text-[#718096] sm:text-xl/8">
+            I specialize in MERN stack development and responsive web design
+            using Tailwind CSS to build stunning and user-friendly websites.
+          </p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/nabiha-khan-5864742b2/"
+              class="rounded-md bg-[#F5A623] px-3.5 py-2.5 text-sm font-semibold text-[#2D3748] hover:text-[#F7F8F9] shadow-xs hover:bg-[#4A00B7] focus-visible:outline-2 focus-visible:outline-offset-2 transition-all duration-300 ease-in-out"
+              >Hire Me Now</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+        aria-hidden="true"
+      ></div>
+    </div>
+    <!-- hero section end -->
+    <!-- feature section start -->
+    <div class="bg-[#F7F8F9] py-24 sm:py-32" id="features">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:text-center">
+          <p
+            class="mt-2 text-4xl font-semibold tracking-tight text-[#2D3748] sm:text-5xl"
+          >
+            My Features
+          </p>
+          <p class="mt-6 text-lg text-[#718096]">What I Offer</p>
+        </div>
+        <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+          <dl
+            class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16"
+          >
+            <div
+              class="relative pl-16 hover:shadow-md hover:scale-105 transition duration-300 ease-in-out"
+            >
+              <dt class="text-base/7 font-semibold text-[#2D3748]">
+                <div
+                  class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-[#4A00B7]"
+                >
+                  <i class="fa-solid fa-bolt text-[#F7F8F9] text-xl"></i>
+                </div>
+                Fast Delivery
+              </dt>
+              <dd class="mt-2 text-base/7 text-[#718096]">
+                I deliver projects in record time with clean, maintainable code.
+              </dd>
+            </div>
+            <div
+              class="relative pl-16 hover:shadow-md hover:scale-105 transition duration-300 ease-in-out"
+            >
+              <dt class="text-base/7 font-semibold text-[#2D3748]">
+                <div
+                  class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-[#4A00B7]"
+                >
+                  <i
+                    class="fa-solid fa-mobile-screen-button text-[#F7F8F9] text-xl"
+                  ></i>
+                </div>
+                Responsive Design
+              </dt>
+              <dd class="mt-2 text-base/7 text-[#718096]">
+                Mobile-first approach for flawless performance on any device.
+              </dd>
+            </div>
+            <div
+              class="relative pl-16 hover:shadow-md hover:scale-105 transition duration-300 ease-in-out"
+            >
+              <dt class="text-base/7 font-semibold text-[#2D3748]">
+                <div
+                  class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-[#4A00B7]"
+                >
+                  <i class="fa-solid fa-laptop-code text-[#F7F8F9] text-xl"></i>
+                </div>
+                MERN Stack Expert
+              </dt>
+              <dd class="mt-2 text-base/7 text-[#718096]">
+                Full stack solutions using MongoDB, Express, React, and Node.js.
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <!-- feature section end -->
+
+    <!-- About us section start -->
+    <section class="py-24 relative bg-[#F7F8F9]" id="about">
+      <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+        <div
+          class="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1"
+        >
+          <div
+            class="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex"
+          >
+            <div
+              class="w-full flex-col justify-start lg:items-start items-center gap-4 flex"
+            >
+              <h2
+                class="text-[#2D3748] text-4xl font-bold uppercase tracking-wider font-manrope leading-normal lg:text-start text-center"
+              >
+                About Me
+              </h2>
+              <p
+                class="text-[#718096] text-base font-normal leading-relaxed lg:text-start text-center"
+              >
+                Passionate MERN Stack Developer. I’m a dedicated web developer
+                specializing in modern, responsive, and high-performing websites
+                using the MERN stack and Tailwind CSS. With a keen eye for
+                design and focus on performance, I help clients build a powerful
+                online presence.
+              </p>
+            </div>
+            <div class="mt-8 w-full text-center lg:text-start">
+              <h3
+                class="text-3xl font-semibold tracking-tight text-[#2D3748] sm:text-4xl mb-6"
+              >
+                My Expertise
+              </h3>
+              <div
+                class="flex flex-wrap justify-center lg:justify-start gap-3 md:gap-4"
+              >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#4A00B7] px-3 py-1 text-sm font-medium text-[#F7F8F9] shadow-sm"
+                  >React.js</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#4A00B7] px-3 py-1 text-sm font-medium text-[#F7F8F9] shadow-sm"
+                  >Node.js</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#4A00B7] px-3 py-1 text-sm font-medium text-[#F7F8F9] shadow-sm"
+                  >MongoDB</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#4A00B7] px-3 py-1 text-sm font-medium text-[#F7F8F9] shadow-sm"
+                  >Express.js</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#F5A623] px-3 py-1 text-sm font-medium text-[#2D3748] shadow-sm"
+                  >Tailwind CSS</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#F5A623] px-3 py-1 text-sm font-medium text-[#2D3748] shadow-sm"
+                  >HTML</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#F5A623] px-3 py-1 text-sm font-medium text-[#2D3748] shadow-sm"
+                  >CSS</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#F5A623] px-3 py-1 text-sm font-medium text-[#2D3748] shadow-sm"
+                  >JavaScript (ES6)</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#4A00B7] px-3 py-1 text-sm font-medium text-[#F7F8F9] shadow-sm"
+                  >Firebase</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#4A00B7] px-3 py-1 text-sm font-medium text-[#F7F8F9] shadow-sm"
+                  >Heroku</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#4A00B7] px-3 py-1 text-sm font-medium text-[#F7F8F9] shadow-sm"
+                  >Netlify</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#4A00B7] px-3 py-1 text-sm font-medium text-[#F7F8F9] shadow-sm"
+                  >Git & GitHub</span
+                >
+                <span
+                  class="inline-flex items-center rounded-full bg-[#F5A623] px-3 py-1 text-sm font-medium text-[#2D3748] shadow-sm"
+                  >Responsive Web Design</span
+                >
+              </div>
+            </div>
+            <a
+              href="https://www.linkedin.com/in/nabiha-khan-5864742b2/"
+              target="_blank"
+              class="sm:w-fit w-full px-3.5 py-2 bg-[#F5A623] text-[#2D3748] hover:bg-[#4A00B7] hover:text-[#F7F8F9] transition-all duration-300 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex"
+            >
+              <span class="px-1.5 text-sm font-medium leading-6"
+                >Get in Touch</span
+              >
+            </a>
+          </div>
+          <img
+            class="lg:mx-0 mx-auto h-auto w-full rounded-3xl object-contain"
+            src="images/illustration.png"
+            alt="about Us image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About us section end -->
+    <!-- contact section start -->
+    <div class="isolate bg-[#F7F8F9] px-6 py-24 sm:py-32 lg:px-8" id="contact">
+      <div
+        class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+        aria-hidden="true"
+      ></div>
+      <div class="mx-auto max-w-2xl text-center">
+        <h2
+          class="text-4xl font-semibold tracking-tight text-balance text-[#2D3748] sm:text-5xl"
+        >
+          Contact Me
+        </h2>
+        <p class="mt-2 text-lg/8 text-[#718096]">Feel free to reach out</p>
+      </div>
+      <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+        <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+          <div>
+            <label
+              for="first-name"
+              class="block text-sm/6 font-semibold text-[#2D3748]"
+              >First name</label
+            >
+            <div class="mt-2.5">
+              <input
+                required
+                type="text"
+                name="first-name"
+                id="first-name"
+                autocomplete="given-name"
+                class="block w-full rounded-md bg-[#F7F8F9] px-3.5 py-2 text-base text-[#2D3748] outline-1 -outline-offset-1 outline-[#4A00B7] placeholder:text-[#718096] focus:outline-2 focus:-outline-offset-2 focus:outline-[#F5A623]"
+              />
+            </div>
+          </div>
+          <div>
+            <label
+              for="last-name"
+              class="block text-sm/6 font-semibold text-[#2D3748]"
+              >Last name</label
+            >
+            <div class="mt-2.5">
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                autocomplete="family-name"
+                class="block w-full rounded-md bg-[#F7F8F9] px-3.5 py-2 text-base text-[#2D3748] outline-1 -outline-offset-1 outline-[#4A00B7] placeholder:text-[#718096] focus:outline-2 focus:-outline-offset-2 focus:outline-[#F5A623]"
+              />
+            </div>
+          </div>
+
+          <div class="sm:col-span-2">
+            <label
+              for="email"
+              class="block text-sm/6 font-semibold text-[#2D3748]"
+              >Email</label
+            >
+            <div class="mt-2.5">
+              <input
+                type="email"
+                required
+                name="email"
+                id="email"
+                autocomplete="email"
+                class="block w-full rounded-md bg-[#F7F8F9] px-3.5 py-2 text-base text-[#2D3748] outline-1 -outline-offset-1 outline-[#4A00B7] placeholder:text-[#718096] focus:outline-2 focus:-outline-offset-2 focus:outline-[#F5A623]"
+              />
+            </div>
+          </div>
+          <div class="sm:col-span-2">
+            <label
+              for="phone-number"
+              class="block text-sm/6 font-semibold text-[#2D3748]"
+              >Phone number</label
+            >
+            <div class="mt-2.5">
+              <div
+                class="flex rounded-md bg-[#F7F8F9] outline-1 -outline-offset-1 outline-[#4A00B7] has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600"
+              >
+                <input
+                  type="tel"
+                  name="phone-number"
+                  id="phone-number"
+                  class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-[#2D3748] placeholder:text-[#718096] focus:outline-none sm:text-sm/6"
+                  placeholder="+92 3XX XXXXXXX"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sm:col-span-2">
+            <label
+              for="message"
+              class="block text-sm/6 font-semibold text-[#2D3748]"
+              >Message</label
+            >
+            <div class="mt-2.5">
+              <textarea
+                name="message"
+                required
+                id="message"
+                rows="4"
+                class="block w-full rounded-md bg-[#F7F8F9] px-3.5 py-2 text-base text-[#2D3748] outline-1 -outline-offset-1 outline-[#4A00B7] placeholder:text-[#718096] focus:outline-2 focus:-outline-offset-2 focus:outline-[#F5A623]"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="mt-10">
+          <button
+            type="submit"
+            class="block w-full rounded-md bg-[#F5A623] px-3.5 py-2.5 text-center text-sm font-semibold text-[#2D3748] hover:text-[#F7F8F9] shadow-xs hover:bg-[#4A00B7] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F5A623] transition-all duration-300 ease-in-out"
+          >
+            Let's talk
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- contact section end -->
+    <!-- footer section start -->
+    <footer class="bg-[#4A00B7] py-12">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex flex-col md:flex-row justify-between items-center md:items-start gap-8"
+        >
+          <div class="text-center md:text-left">
+            <a
+              href="#hero"
+              class="text-3xl font-bold text-[#F7F8F9] hover:text-[#F5A623] transition duration-300"
+              >Nabiha Dev</a
+            >
+            <p class="mt-4 text-base text-[#F7F8F9] max-w-md">
+              Crafting modern, responsive, and high-performing web solutions
+              with the MERN stack.
+            </p>
+          </div>
+
+          <div class="text-center md:text-left">
+            <h3 class="text-xl font-semibold text-[#F5A623]">Quick Links</h3>
+            <nav class="mt-4 flex flex-col space-y-2">
+              <a
+                href="#hero"
+                class="text-[#F7F8F9] hover:text-[#F5A623] transition duration-300"
+                >Home</a
+              >
+              <a
+                href="#features"
+                class="text-[#F7F8F9] hover:text-[#F5A623] transition duration-300"
+                >Features</a
+              >
+              <a
+                href="#about"
+                class="text-[#F7F8F9] hover:text-[#F5A623] transition duration-300"
+                >About Us</a
+              >
+              <a
+                href="#contact"
+                class="text-[#F7F8F9] hover:text-[#F5A623] transition duration-300"
+                >Contact</a
+              >
+            </nav>
+          </div>
+
+          <div class="text-center md:text-left">
+            <h3 class="text-xl font-semibold text-[#F5A623]">
+              Connect With Me
+            </h3>
+            <div class="mt-4 flex justify-center md:justify-start space-x-6">
+              <a
+                href="https://www.linkedin.com/in/nabiha-khan-5864742b2/"
+                target="_blank"
+                class="text-[#F7F8F9] hover:text-[#F5A623] text-2xl transition duration-300"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/TheNabihaKhan/"
+                target="_blank"
+                class="text-[#F7F8F9] hover:text-[#F5A623] text-2xl transition duration-300"
+                aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <a
+                href="https://www.instagram.com/khannabiha923/"
+                target="_blank"
+                class="text-[#F7F8F9] hover:text-[#F5A623] text-2xl transition duration-300"
+                aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="mt-12 pt-8 border-t border-gray-700 text-center text-sm text-[#718096]"
+        >
+          &copy; 2025 Nabiha Dev. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+    <script src="script.js"></script>
+  </body>
+</html>

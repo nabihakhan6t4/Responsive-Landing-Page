@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #f4f4f4;
+  --primary-color: #3B82F6;
+  --accent-color: #A78BFA;
+  --heading-color: #1E293B;
+  --text-color: #475569;
+}
+
+
+:root {
+  --bg-color: #E0F2FE;
+  --primary-color: #2563EB;
+  --accent-color: #F59E0B;
+  --heading-color: #1E293B;
+  --text-color: #475569;
+}
+
+
+
+
+:root {
+  --bg-color: #F0F8FF;         /* Base background */
+  --primary-color: #00C292;    /* Main branding color */
+  --accent-color: #5B55FF;     /* Highlight, CTA buttons */
+  --heading-color: #2C3E50;    /* Headings */
+  --text-color: #7F8C8D;       /* Paragraph text */
+}
